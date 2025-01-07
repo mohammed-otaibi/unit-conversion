@@ -1,0 +1,70 @@
+    body {
+      background-color: black;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background-color: #800000; /* اللون العنابي */
+    }
+
+    .navbar a {
+      color: white;
+    }
+
+    .conversion-card {
+      background-color: #fff;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 700px;
+      margin-bottom: 20px;
+    }
+
+    fieldset {
+      border: 1px solid #ddd;
+      padding: 15px;
+    }
+
+    legend {
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    button {
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+
+    aside {
+      margin-top: 10px;
+      color: #6c757d;
+      font-size: 0.9rem;
+    }
+
+    figcaption {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+    /* Go Home Button */
+#go-home {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+#go-home img {
+  width: 40px;
+  cursor: pointer;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
